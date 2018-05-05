@@ -9,6 +9,9 @@
         width: 310px !important;
         height: 180px !important;
     }
+    header .row .col.push-s2{
+        left: 8.3333333333%;
+    }
 }
 @media only screen and (max-width: 480px){
     .owl-theme .owl-nav{
@@ -83,6 +86,14 @@
     iframe{
         width: 370px;
         height: 230px;
+    }
+}
+@media only screen and (max-width: 1201px){
+    header nav.main-navbar .navbar-links{
+        left: 0;
+    }
+    header nav.main-navbar .navbar-links li{
+        margin-right: 30px;
     }
 }
 @media only screen and (min-width: 993px) and (max-width: 1366px){
