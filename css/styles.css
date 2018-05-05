@@ -30,7 +30,7 @@ header a[data-target = mobile-menu]{ display: table-cell; vertical-align: middle
 header .sidenav-trigger{ float: none}
 header .sidenav-trigger i{ font-size: 36px}
 
-header nav.main-navbar .sidenav{ padding: 15px 0}
+header nav.main-navbar .sidenav{ padding: 15px 0 100px; height: 100% !important;}
 header nav.main-navbar .sidenav li>a{ font-size: 1.2em; text-align: left}
 header nav.main-navbar .sidenav li>a.active{ background-color: rgba(0,0,0,0.05);}
 header nav.main-navbar .sidenav ul.mobile-sub-menu{ padding-left: 20px}
@@ -39,14 +39,14 @@ header nav.main-navbar .sidenav ul.mobile-sub-menu li>a{ font-size: 1em; height:
 header nav.main-navbar { position: relative; display: table; margin: 0 auto; height: 100px; background-color: #fff; box-shadow: none; text-align: center;  }
 header nav.main-navbar .navbar-links { position: relative; left: 100px; display: table-cell; vertical-align: middle }
 header nav.main-navbar .navbar-links li { display: inline; margin-right: 50px }
-header nav.main-navbar .navbar-links li a { display: block; height: 100%; color: #282424; font-size: 1.6em; }
+header nav.main-navbar .navbar-links li a { display: block; height: 100%; color: #282424; font-size: 1.2em; }
 header nav.main-navbar .navbar-links li a:focus { outline: none }
 header nav.main-navbar .navbar-links li.active a { color: #b10000; font-weight: bold}
 header nav.main-navbar .navbar-links li.active { background-color: transparent}
 header nav.main-navbar .navbar-links a:hover { background: transparent }
 
 header nav.main-navbar .dropdown-content{ min-width: 250px; background-color: rgba(171,83,85,0.7); padding: 10px 0}
-header nav.main-navbar .dropdown-content li a{ color: #fff !important; font-size: 1.2em; padding: 10px 15px; font-weight: normal !important; line-height: 1.7}
+header nav.main-navbar .dropdown-content li a{ color: #fff !important; font-size: 1em; padding: 10px 15px; font-weight: normal !important; line-height: 1.7}
 header nav.main-navbar .dropdown-content li a.active{ text-decoration: underline}
 header nav.main-navbar .dropdown-content li:hover{ background-color: rgba(171,83,85,1) }
 
@@ -87,8 +87,7 @@ header nav.main-navbar .language-links a img { vertical-align: middle; line-heig
 #about .about-caption .about-red-t{ color: #b10000; font-weight: bold}
 
 #application{ background: url('../img/bg.jpg')}
-#application .app-text{ font-size: 2em; font-weight: bold; text-transform: uppercase; text-align: center; color: #fff; padding: 50px 0 }
-#application .app-text i{ font-size: 50px; vertical-align: middle}
+#application .app-text{ font-size: 1.6em; font-weight: bold; text-transform: uppercase; text-align: center; color: #fff; padding: 50px 0 }
 
 #contacts img{ max-width: 100%; height: auto; vertical-align: middle}
 #contacts .contacts-title{ font-size: 2em; font-weight: bold; text-transform: uppercase; text-align: center; color: #b10000; margin: 50px 0 30px }
