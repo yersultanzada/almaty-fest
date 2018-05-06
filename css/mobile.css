@@ -12,6 +12,9 @@
     header .row .col.push-s2{
         left: 8.3333333333%;
     }
+    header nav.main-navbar .sidenav{
+        width: 250px
+    }
 }
 @media only screen and (max-width: 480px){
     .owl-theme .owl-nav{
@@ -21,6 +24,14 @@
         width: 100vw;
         height: 50vh;
         object-fit: cover;
+    }
+    #main-carousel .carousel-caption{
+        padding: 10em 1em !important;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 601px){
+    #main-carousel .carousel-caption{
+        padding: 3em 1em !important;
     }
 }
 @media only screen and (max-width: 601px){
@@ -32,9 +43,6 @@
         top: 0;
         left: 0;
         text-align: center;
-    }
-    #main-carousel .carousel-caption{
-        padding: 3em 1em !important;
     }
     #main-carousel .carousel-caption .cap-title{
         font-size: 1.6em;
