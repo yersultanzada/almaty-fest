@@ -30,6 +30,7 @@ header a[data-target = mobile-menu]{ display: table-cell; vertical-align: middle
 header .sidenav-trigger{ float: none}
 header .sidenav-trigger i{ font-size: 36px}
 
+header nav.main-navbar li a:hover{ background-color: transparent}
 header nav.main-navbar .sidenav{ padding: 15px 0 50px; height: 100% !important}
 header nav.main-navbar .sidenav li>a{ font-size: 1.2em; text-align: left}
 header nav.main-navbar .sidenav li>a.active{ background-color: rgba(0,0,0,0.05);}

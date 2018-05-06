@@ -110,9 +110,6 @@
     }
 }
 @media only screen and (max-width: 1201px){
-    header nav.main-navbar .navbar-links{
-        left: 0;
-    }
     header nav.main-navbar .navbar-links li{
         margin-right: 30px;
     }
