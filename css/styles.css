@@ -30,7 +30,7 @@ header a[data-target = mobile-menu]{ display: table-cell; vertical-align: middle
 header .sidenav-trigger{ float: none}
 header .sidenav-trigger i{ font-size: 36px}
 
-header nav.main-navbar .sidenav{ padding: 15px 0 100px; height: 100% !important;}
+header nav.main-navbar .sidenav{ padding: 15px 0 100px; height: 100% !important}
 header nav.main-navbar .sidenav li>a{ font-size: 1.2em; text-align: left}
 header nav.main-navbar .sidenav li>a.active{ background-color: rgba(0,0,0,0.05);}
 header nav.main-navbar .sidenav ul.mobile-sub-menu{ padding-left: 20px}
@@ -77,7 +77,7 @@ header nav.main-navbar .language-links a img { vertical-align: middle; line-heig
 #main-carousel .owl-dots{ display: block; margin-top: 10px}
 #main-carousel .carousel-caption{ position: absolute; top: 0; right: 0; left: 0; margin: 17em auto; height: auto; z-index: 4;
     color: #fff; text-align: center; padding: 2em;  max-width: 680px; opacity: 0.9; background-color: rgba(0,0,0,0.5)}
-#main-carousel .carousel-caption .cap-title { font-size: 2.4em; font-weight: bold; margin-bottom: 10px; margin-top: 0; text-transform: uppercase}
+#main-carousel .carousel-caption .cap-title { font-size: 2.4em; font-weight: bold; margin-bottom: 10px; margin-top: 0; text-transform: uppercase; line-height: 1.2}
 #main-carousel .carousel-caption .cap-text{ font-size: 2em; }
 
 #about .about-title{ font-size: 2em; font-weight: bold; text-transform: uppercase; text-align: center; color: #b10000; margin: 50px 0 30px}
